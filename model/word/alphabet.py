@@ -7,5 +7,5 @@ class Alphabet:
         return cls._letters
 
     @classmethod
-    def check_letter(cls, letter):
+    def check_letter(cls, letter: str):
         return letter.upper() in cls._letters
